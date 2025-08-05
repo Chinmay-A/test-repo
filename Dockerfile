@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
  
 # 3️Copy the built JAR file into the container
-COPY target/test-repo.jar app.jar
+#COPY target/test-repo.jar app.jar
  
 # 4️Expose the application port
 EXPOSE 8080
